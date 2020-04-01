@@ -3,12 +3,13 @@ import './App.css';
 import data from "./data.json";
 
 // Importing employees list from a json file
-// creating an object map for managers(including the root employee/CEO)  
+// creating an object map of managers(including the root employee/CEO)  
 // by their employee id and assigning the list of direct reportees
 
 let empList = {};
 let totalSalary = 0;
 data.data.reduce((acc, obj)=>{ 
+  // Calculating the salary 
   totalSalary+=obj.salary; 
   let finalObj = { ...acc, [obj.id]: obj }
   let managerId = obj.managerId;
