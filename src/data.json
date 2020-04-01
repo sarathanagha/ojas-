@@ -1,0 +1,51 @@
+{
+	"data": [{
+			"id": 101,
+			"empName": "Jeff",
+			"salary": 100000,
+			"managerId": null
+		},
+		{
+			"id": 154,
+			"empName": "Suzanne",
+			"salary": 61000,
+			"managerId": 109
+		},
+		{
+			"id": 109,
+			"empName": "Dave",
+			"salary": 85000,
+			"managerId": 101
+		},
+		{
+			"id": 110,
+			"empName": "Andy",
+			"salary": 65000,
+			"managerId": 109
+		},
+		{
+			"id": 199,
+			"empName": "Dan",
+			"salary": 60000,
+			"managerId": 109
+		},
+		{
+			"id": 213,
+			"empName": "Cory",
+			"salary": 65000,
+			"managerId": 101
+		},
+		{
+			"id": 132,
+			"empName": "Jason",
+			"salary": 60000,
+			"managerId": 109
+		},
+		{
+			"id": 133,
+			"empName": "Rick",
+			"salary": 56000,
+			"managerId": 109
+		}
+	]
+}
